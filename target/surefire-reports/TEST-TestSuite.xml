@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="20.328" tests="12" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="RestAssuredMaven"/>
+    <property name="PWD" value="/Users/Parihar08/Documents/workspace/jenkins-war"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="/Users/Parihar08/.jenkins"/>
+    <property name="PATH" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/bin:/usr/local/bin:/Users/Parihar08/Documents/workspace/libs/Maven/apache-maven-3.3.9/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/bin:/Library/Frameworks/Python.framework/Versions/3.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin/chromedriver:/Applications/Wireshark.app/Contents/MacOS:/Users/Parihar08/Documents/workspace/Python With Selenium/Python With Selenium"/>
+    <property name="HUDSON_SERVER_COOKIE" value="e9c40645018e4e55"/>
+    <property name="AXIS_HOME" value="/Users/Parihar08/Desktop/SOAPUITutorial/axis2-1.6.2"/>
+    <property name="POM_ARTIFACTID" value="RestAssuredMaven"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="TERM_PROGRAM" value="Apple_Terminal"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/classes"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="TERM_SESSION_ID" value="1C7437DE-3971-41CF-8EA7-B0608710B9AE"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="RestAssuredMaven"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.runtime.version" value="1.8.0_101-b13"/>
+    <property name="user.name" value="Parihar08"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="SECURITYSESSIONID" value="186ae"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="RestAssuredMaven"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/RestAssuredMaven/2/display/redirect?page=changes"/>
+    <property name="M2" value="/Users/Parihar08/Documents/workspace/libs/Maven/apache-maven-3.3.9/bin"/>
+    <property name="BUILD_DISPLAY_NAME" value="#2"/>
+    <property name="TMPDIR" value="/var/folders/bf/kx7p92dd5b98zbpfr_8rdjbc0000gn/T/"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib"/>
+    <property name="java.version" value="1.8.0_101"/>
+    <property name="XPC_FLAGS" value="0x0"/>
+    <property name="user.timezone" value="America/Edmonton"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="TERM" value="xterm-256color"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="BUILD_ID" value="2"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="SHELL" value="/bin/bash"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.14.3"/>
+    <property name="RUN_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/RestAssuredMaven/2/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="25.101-b13"/>
+    <property name="JOB_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/RestAssuredMaven/display/redirect"/>
+    <property name="SHLVL" value="1"/>
+    <property name="_" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/bin/java"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="JAVA_HOME" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="LOGNAME" value="Parihar08"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="HOME" value="/Users/Parihar08"/>
+    <property name="POM_GROUPID" value="RestAssuredMaven"/>
+    <property name="JAVA_MAIN_CLASS_2341" value="Main"/>
+    <property name="user.home" value="/Users/Parihar08"/>
+    <property name="BUILD_TAG" value="jenkins-RestAssuredMaven-2"/>
+    <property name="JENKINS_SERVER_COOKIE" value="e9c40645018e4e55"/>
+    <property name="XPC_SERVICE_NAME" value="0"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="/Users/Parihar08/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.o9bWXyhqye/Render"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="/Users/Parihar08/Documents/workspace/libs/Maven/apache-maven-3.3.9"/>
+    <property name="java.class.path" value="/Users/Parihar08/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven33-agent-1.12-alpha-1.jar:/Users/Parihar08/Documents/workspace/libs/Maven/apache-maven-3.3.9/boot/plexus-classworlds-2.5.2.jar:/Users/Parihar08/Documents/workspace/libs/Maven/apache-maven-3.3.9/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven33Main /Users/Parihar08/Documents/workspace/libs/Maven/apache-maven-3.3.9 /Users/Parihar08/.jenkins/war/WEB-INF/lib/remoting-3.25.jar /Users/Parihar08/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven33-interceptor-1.12-alpha-1.jar /Users/Parihar08/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.12-alpha-1.jar 51661"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PATH+JDK" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/bin"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="/Users/Parihar08/Documents/workspace/libs/Maven/apache-maven-3.3.9"/>
+    <property name="java.io.tmpdir" value="/var/folders/bf/kx7p92dd5b98zbpfr_8rdjbc0000gn/T/"/>
+    <property name="HUDSON_HOME" value="/Users/Parihar08/.jenkins"/>
+    <property name="PATH+MAVEN" value="/Users/Parihar08/Documents/workspace/libs/Maven/apache-maven-3.3.9/bin"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="OLDPWD" value="/Users/Parihar08/Documents/workspace"/>
+    <property name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.9aY1l8ZxQR/Listeners"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.ext.dirs" value="/Users/Parihar08/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="__CF_USER_TEXT_ENCODING" value="0x1F5:0x0:0x0"/>
+    <property name="user.dir" value="/Users/Parihar08/Documents/workspace/RestAssuredMaven"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="MAVEN_HOME" value="/Users/Parihar08/Documents/workspace/libs/Maven/apache-maven-3.3.9"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="2"/>
+    <property name="TERM_PROGRAM_VERSION" value="421.1"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="LANG" value="en_US.UTF-8"/>
+    <property name="maven3.interceptor" value="/Users/Parihar08/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven33-interceptor-1.12-alpha-1.jar"/>
+    <property name="WORKSPACE" value="/Users/Parihar08/.jenkins/workspace/RestAssuredMaven"/>
+    <property name="maven3.interceptor.common" value="/Users/Parihar08/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.12-alpha-1.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="USER" value="Parihar08"/>
+  </properties>
+  <testcase name="Test1" classname="RestAssuredMaven.RestAssuredMaven.CreateDeletePlaceConfigTest" time="4.462"/>
+  <testcase name="addBook" classname="RestAssuredMaven.RestAssuredMaven.DataParameterizationTest" time="1.742"/>
+  <testcase name="addBook" classname="RestAssuredMaven.RestAssuredMaven.DataParameterizationTest" time="1.517"/>
+  <testcase name="addBook" classname="RestAssuredMaven.RestAssuredMaven.DataParameterizationTest" time="1.278"/>
+  <testcase name="JiraAPI" classname="RestAssuredMaven.RestAssuredMaven.JiraAPIBasics" time="1.563"/>
+  <testcase name="Test1" classname="RestAssuredMaven.RestAssuredMaven.CreateAndDeletePlaceTest" time="1.554"/>
+  <testcase name="Test1" classname="RestAssuredMaven.RestAssuredMaven.PostCreatePlaceTest" time="0.822"/>
+  <testcase name="TestAPI" classname="RestAssuredMaven.RestAssuredMaven.LibraryAPITest" time="2.56"/>
+  <testcase name="TestAPI" classname="RestAssuredMaven.RestAssuredMaven.StaticJSONTest" time="3.575"/>
+  <testcase name="TestAPI" classname="RestAssuredMaven.RestAssuredMaven.DynamicJSONTest" time="2.465"/>
+  <testcase name="JiraAPI" classname="RestAssuredMaven.RestAssuredMaven.JiraAPIAddUpdateCommentPUT" time="0.655"/>
+  <testcase name="Test1" classname="RestAssuredMaven.RestAssuredMaven.CreateAndDeletePlaceXMLTest" time="0.93">
+    <failure message="Failed to parse the XML document" type="io.restassured.path.xml.exception.XmlPathException">io.restassured.path.xml.exception.XmlPathException: Failed to parse the XML document
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at groovy.util.XmlSlurper.parse(XmlSlurper.java:205)
+	at groovy.util.XmlSlurper.parse(XmlSlurper.java:258)
+	at groovy.util.XmlSlurper.parseText(XmlSlurper.java:284)
+	at io.restassured.path.xml.XmlPath$1.method(XmlPath.java:838)
+	at io.restassured.path.xml.XmlPath$LazyXmlParser.invoke(XmlPath.java:1014)
+	at io.restassured.path.xml.XmlPath.getFromPath(XmlPath.java:422)
+	at io.restassured.path.xml.XmlPath.get(XmlPath.java:317)
+	at RestAssuredMaven.RestAssuredMaven.CreateAndDeletePlaceXMLTest.Test1(CreateAndDeletePlaceXMLTest.java:61)
+</failure>
+    <system-out><![CDATA[Raw string response for the create request: 
+]]></system-out>
+    <system-err><![CDATA[[Fatal Error] :1:1: Premature end of file.
+]]></system-err>
+  </testcase>
+</testsuite>

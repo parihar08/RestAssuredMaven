@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 25.24 sec <<< FAILURE! - in TestSuite
+Test1(RestAssuredMaven.RestAssuredMaven.CreateAndDeletePlaceXMLTest)  Time elapsed: 0.93 sec  <<< FAILURE!
+io.restassured.path.xml.exception.XmlPathException: Failed to parse the XML document
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at groovy.util.XmlSlurper.parse(XmlSlurper.java:205)
+	at groovy.util.XmlSlurper.parse(XmlSlurper.java:258)
+	at groovy.util.XmlSlurper.parseText(XmlSlurper.java:284)
+	at io.restassured.path.xml.XmlPath$1.method(XmlPath.java:838)
+	at io.restassured.path.xml.XmlPath$LazyXmlParser.invoke(XmlPath.java:1014)
+	at io.restassured.path.xml.XmlPath.getFromPath(XmlPath.java:422)
+	at io.restassured.path.xml.XmlPath.get(XmlPath.java:317)
+	at RestAssuredMaven.RestAssuredMaven.CreateAndDeletePlaceXMLTest.Test1(CreateAndDeletePlaceXMLTest.java:61)
+

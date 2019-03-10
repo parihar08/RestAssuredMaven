@@ -1,0 +1,16 @@
+RestAssuredMaven/RestAssuredMaven/DynamicJSONTest.class
+RestAssuredMaven/RestAssuredMaven/LibraryAPITest.class
+RestAssuredMaven/RestAssuredMaven/CreateAndDeletePlaceTest.class
+RestAssuredMaven/RestAssuredMaven/StaticJSONTest.class
+RestAssuredMaven/RestAssuredMaven/JiraAPIAddUpdateCommentPUT.class
+files/Resources.class
+listeners/ExtentReporterNG.class
+RestAssuredMaven/RestAssuredMaven/GetJSONTraveseTest.class
+RestAssuredMaven/RestAssuredMaven/PostCreatePlaceTest.class
+RestAssuredMaven/RestAssuredMaven/CreateDeletePlaceConfigTest.class
+RestAssuredMaven/RestAssuredMaven/TwitterAPIBasics.class
+files/PayLoad.class
+files/Utilities.class
+RestAssuredMaven/RestAssuredMaven/CreateAndDeletePlaceXMLTest.class
+RestAssuredMaven/RestAssuredMaven/JiraAPIBasics.class
+RestAssuredMaven/RestAssuredMaven/DataParameterizationTest.class

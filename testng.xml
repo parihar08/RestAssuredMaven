@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+	<listener class-name = "listeners.ExtentReporterNG"/>
+	</listeners>
+	<test thread-count="5" name="RestAPI">
+		<classes>
+			<class name="RestAssuredMaven.RestAssuredMaven.CreateDeletePlaceConfigTest"/> 
+				<class name="RestAssuredMaven.RestAssuredMaven.DataParameterizationTest"/>
+			<class name="RestAssuredMaven.RestAssuredMaven.JiraAPIBasics" />
+			<!-- <class name="RestAssuredMaven.RestAssuredMaven.TwitterAPIBasics" /> -->
+			<class name="RestAssuredMaven.RestAssuredMaven.CreateAndDeletePlaceTest"/> 
+				<class name="RestAssuredMaven.RestAssuredMaven.PostCreatePlaceTest"/> 
+				<class name="RestAssuredMaven.RestAssuredMaven.LibraryAPITest"/>
+				 <class name="RestAssuredMaven.RestAssuredMaven.StaticJSONTest"/> 
+				<class name="RestAssuredMaven.RestAssuredMaven.DynamicJSONTest"/>
+			<class name="RestAssuredMaven.RestAssuredMaven.JiraAPIAddUpdateCommentPUT" />
+			<class name="RestAssuredMaven.RestAssuredMaven.CreateAndDeletePlaceXMLTest"/>
+		</classes>
+	</test> <!-- RestAPI -->
+</suite> <!-- Suite -->

@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods, 1 failed,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RestAssuredMaven.RestAssuredMaven.CreateAndDeletePlaceXMLTest" hash-for-method="Test1">Test1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RestAssuredMaven.RestAssuredMaven.JiraAPIAddUpdateCommentPUT" hash-for-method="JiraAPI">JiraAPI</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RestAssuredMaven.RestAssuredMaven.JiraAPIBasics" hash-for-method="JiraAPI">JiraAPI</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RestAssuredMaven.RestAssuredMaven.CreateAndDeletePlaceTest" hash-for-method="Test1">Test1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RestAssuredMaven.RestAssuredMaven.PostCreatePlaceTest" hash-for-method="Test1">Test1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RestAssuredMaven.RestAssuredMaven.CreateDeletePlaceConfigTest" hash-for-method="Test1">Test1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RestAssuredMaven.RestAssuredMaven.StaticJSONTest" hash-for-method="TestAPI">TestAPI</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RestAssuredMaven.RestAssuredMaven.DynamicJSONTest" hash-for-method="TestAPI">TestAPI</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RestAssuredMaven.RestAssuredMaven.LibraryAPITest" hash-for-method="TestAPI">TestAPI</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RestAssuredMaven.RestAssuredMaven.DataParameterizationTest" hash-for-method="addBook(abc, 1236)">addBook(abc, 1236)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RestAssuredMaven.RestAssuredMaven.DataParameterizationTest" hash-for-method="addBook(def, 4561)">addBook(def, 4561)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="RestAssuredMaven.RestAssuredMaven.DataParameterizationTest" hash-for-method="addBook(ghi, 7890)">addBook(ghi, 7890)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">RestAssuredMaven.RestAssuredMaven.CreateAndDeletePlaceXMLTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test1">
+                  </a> <!-- Test1 -->
+                  <span class="method-name">Test1</span>
+                  <div class="stack-trace">io.restassured.path.xml.exception.XmlPathException: Failed to parse the XML document
+	at io.restassured.path.xml.XmlPath$LazyXmlParser.invoke(XmlPath.java:1021)
+	at io.restassured.path.xml.XmlPath.getFromPath(XmlPath.java:422)
+	at io.restassured.path.xml.XmlPath.get(XmlPath.java:317)
+	at RestAssuredMaven.RestAssuredMaven.CreateAndDeletePlaceXMLTest.Test1(CreateAndDeletePlaceXMLTest.java:61)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Premature end of file.
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at groovy.util.XmlSlurper.parse(XmlSlurper.java:205)
+	at groovy.util.XmlSlurper.parse(XmlSlurper.java:258)
+	at groovy.util.XmlSlurper.parseText(XmlSlurper.java:284)
+	at io.restassured.path.xml.XmlPath$1.method(XmlPath.java:838)
+	at io.restassured.path.xml.XmlPath$LazyXmlParser.invoke(XmlPath.java:1014)
+	... 31 more
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">RestAssuredMaven.RestAssuredMaven.CreateDeletePlaceConfigTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test1">
+                  </a> <!-- Test1 -->
+                  <span class="method-name">Test1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">RestAssuredMaven.RestAssuredMaven.LibraryAPITest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestAPI">
+                  </a> <!-- TestAPI -->
+                  <span class="method-name">TestAPI</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">RestAssuredMaven.RestAssuredMaven.CreateAndDeletePlaceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test1">
+                  </a> <!-- Test1 -->
+                  <span class="method-name">Test1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">RestAssuredMaven.RestAssuredMaven.JiraAPIAddUpdateCommentPUT</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="JiraAPI">
+                  </a> <!-- JiraAPI -->
+                  <span class="method-name">JiraAPI</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">RestAssuredMaven.RestAssuredMaven.PostCreatePlaceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test1">
+                  </a> <!-- Test1 -->
+                  <span class="method-name">Test1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">RestAssuredMaven.RestAssuredMaven.StaticJSONTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestAPI">
+                  </a> <!-- TestAPI -->
+                  <span class="method-name">TestAPI</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">RestAssuredMaven.RestAssuredMaven.DataParameterizationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addBook(abc, 1236)">
+                  </a> <!-- addBook(abc, 1236) -->
+                  <span class="method-name">addBook</span>
+                  <span class="parameters">(abc, 1236)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addBook(def, 4561)">
+                  </a> <!-- addBook(def, 4561) -->
+                  <span class="method-name">addBook</span>
+                  <span class="parameters">(def, 4561)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addBook(ghi, 7890)">
+                  </a> <!-- addBook(ghi, 7890) -->
+                  <span class="method-name">addBook</span>
+                  <span class="parameters">(ghi, 7890)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">RestAssuredMaven.RestAssuredMaven.DynamicJSONTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestAPI">
+                  </a> <!-- TestAPI -->
+                  <span class="method-name">TestAPI</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">RestAssuredMaven.RestAssuredMaven.JiraAPIBasics</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="JiraAPI">
+                  </a> <!-- JiraAPI -->
+                  <span class="method-name">JiraAPI</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/Parihar08/Documents/workspace/RestAssuredMaven/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listeners.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;RestAPI&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;RestAssuredMaven.RestAssuredMaven.CreateDeletePlaceConfigTest&quot;/&gt;
+      &lt;class name=&quot;RestAssuredMaven.RestAssuredMaven.DataParameterizationTest&quot;/&gt;
+      &lt;class name=&quot;RestAssuredMaven.RestAssuredMaven.JiraAPIBasics&quot;/&gt;
+      &lt;class name=&quot;RestAssuredMaven.RestAssuredMaven.CreateAndDeletePlaceTest&quot;/&gt;
+      &lt;class name=&quot;RestAssuredMaven.RestAssuredMaven.PostCreatePlaceTest&quot;/&gt;
+      &lt;class name=&quot;RestAssuredMaven.RestAssuredMaven.LibraryAPITest&quot;/&gt;
+      &lt;class name=&quot;RestAssuredMaven.RestAssuredMaven.StaticJSONTest&quot;/&gt;
+      &lt;class name=&quot;RestAssuredMaven.RestAssuredMaven.DynamicJSONTest&quot;/&gt;
+      &lt;class name=&quot;RestAssuredMaven.RestAssuredMaven.JiraAPIAddUpdateCommentPUT&quot;/&gt;
+      &lt;class name=&quot;RestAssuredMaven.RestAssuredMaven.CreateAndDeletePlaceXMLTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- RestAPI --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">RestAPI (10 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Test1')
+data.setCell(0, 2, 'RestAssuredMaven.RestAssuredMaven.CreateDeletePlaceConfigTest')
+data.setCell(0, 3, 4462);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TestAPI')
+data.setCell(1, 2, 'RestAssuredMaven.RestAssuredMaven.StaticJSONTest')
+data.setCell(1, 3, 3575);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TestAPI')
+data.setCell(2, 2, 'RestAssuredMaven.RestAssuredMaven.LibraryAPITest')
+data.setCell(2, 3, 2559);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TestAPI')
+data.setCell(3, 2, 'RestAssuredMaven.RestAssuredMaven.DynamicJSONTest')
+data.setCell(3, 3, 2454);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'addBook')
+data.setCell(4, 2, 'RestAssuredMaven.RestAssuredMaven.DataParameterizationTest')
+data.setCell(4, 3, 1738);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'JiraAPI')
+data.setCell(5, 2, 'RestAssuredMaven.RestAssuredMaven.JiraAPIBasics')
+data.setCell(5, 3, 1561);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Test1')
+data.setCell(6, 2, 'RestAssuredMaven.RestAssuredMaven.CreateAndDeletePlaceTest')
+data.setCell(6, 3, 1554);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'addBook')
+data.setCell(7, 2, 'RestAssuredMaven.RestAssuredMaven.DataParameterizationTest')
+data.setCell(7, 3, 1521);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'addBook')
+data.setCell(8, 2, 'RestAssuredMaven.RestAssuredMaven.DataParameterizationTest')
+data.setCell(8, 3, 1277);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Test1')
+data.setCell(9, 2, 'RestAssuredMaven.RestAssuredMaven.CreateAndDeletePlaceXMLTest')
+data.setCell(9, 3, 903);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Test1')
+data.setCell(10, 2, 'RestAssuredMaven.RestAssuredMaven.PostCreatePlaceTest')
+data.setCell(10, 3, 821);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'JiraAPI')
+data.setCell(11, 2, 'RestAssuredMaven.RestAssuredMaven.JiraAPIAddUpdateCommentPUT')
+data.setCell(11, 3, 665);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 23 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">RestAssuredMaven.RestAssuredMaven.CreateDeletePlaceConfigTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">getData</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RestAssuredMaven.RestAssuredMaven.JiraAPIAddUpdateCommentPUT</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">getData</span>
+                <span class="method-start">25 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RestAssuredMaven.RestAssuredMaven.JiraAPIBasics</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">getData</span>
+                <span class="method-start">25 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RestAssuredMaven.RestAssuredMaven.CreateDeletePlaceConfigTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Test1</span>
+                <span class="method-start">72 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RestAssuredMaven.RestAssuredMaven.DataParameterizationTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addBook(abc, 1236)</span>
+                <span class="method-start">4540 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addBook(def, 4561)</span>
+                <span class="method-start">6278 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addBook(ghi, 7890)</span>
+                <span class="method-start">7800 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RestAssuredMaven.RestAssuredMaven.JiraAPIBasics</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">JiraAPI</span>
+                <span class="method-start">9078 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RestAssuredMaven.RestAssuredMaven.CreateAndDeletePlaceTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Test1</span>
+                <span class="method-start">10642 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RestAssuredMaven.RestAssuredMaven.PostCreatePlaceTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Test1</span>
+                <span class="method-start">12197 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RestAssuredMaven.RestAssuredMaven.LibraryAPITest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TestAPI</span>
+                <span class="method-start">13019 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RestAssuredMaven.RestAssuredMaven.StaticJSONTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TestAPI</span>
+                <span class="method-start">15579 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RestAssuredMaven.RestAssuredMaven.DynamicJSONTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TestAPI</span>
+                <span class="method-start">19155 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RestAssuredMaven.RestAssuredMaven.JiraAPIAddUpdateCommentPUT</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">JiraAPI</span>
+                <span class="method-start">21610 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RestAssuredMaven.RestAssuredMaven.CreateAndDeletePlaceXMLTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Test1</span>
+                <span class="method-start">22276 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
